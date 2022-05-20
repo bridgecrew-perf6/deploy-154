@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {% block content %}
+    <form action="" method="post" novalidate>
+        {{ form.hidden_tag() }}
+
+        <p>
+            {{ form.iu_ac_5327.label }}<br>
+            {{ form.iu_ac_5327}}
+        </p>
+        <p>
+            {{ form.iu_ac_5328.label }}<br>
+            {{ form.iu_ac_5328(size=32) }}
+        </p>
+        <p>
+            {{ form.iu_ac_5330.label }}<br>
+            {{ form.iu_ac_5330(size=32) }}
+        </p>
+        <p>
+            {{ form.iu_ac_5331.label }}<br>
+            {{ form.iu_ac_5331(size=32) }}
+        </p>
+        <p>
+            {{ form.iu_ac_5336.label }}<br>
+            {{ form.iu_ac_5336(size=32) }}
+        </p>
+        <p>
+            {{ form.iu_ac_5370.label }}<br>
+            {{ form.iu_ac_5370(size=32) }}
+        </p>
+        <p>
+            {{ form.iu_ac_5379.label }}<br>
+            {{ form.iu_ac_5379(size=32) }}
+        </p>
+        <p>
+            {{ form.iu_ac_5415.label }}<br>
+            {{ form.iu_ac_5415(size=32) }}
+        </p>
+        <p>
+            {{ form.iu_ac_5289.label }}<br>
+            {{ form.iu_ac_5289(size=32) }}
+        </p>
+        <p>
+            {{ form.iu_ac_5324.label }}<br>
+            {{ form.iu_ac_5324(size=32) }}
+        </p>
+        <p>
+            {{ form.periode.label }}<br>
+            {{ form.periode(size=32) }}
+        </p>
+        <p>
+            {{ form.jour.label }}<br>
+            {{ form.jour(size=32) }}
+        </p>
+        <p>
+            {{ form.semaine.label }}<br>
+            {{ form.semaine(size=32) }}
+        </p>
+        <p>
+            {{ form.mois.label }}<br>
+            {{ form.mois(size=32) }}
+        </p>
+        <p>{{ form.submit() }}</p>
+    </form>
+{% endblock %}
+
+
+
+</head>
+<body>
+
+</body>
+</html>
